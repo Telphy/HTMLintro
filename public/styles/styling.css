@@ -1,0 +1,22 @@
+#p1 {
+    text-align: justify;
+    color: black;
+    background-color: aquamarine;
+}
+
+#p2 {
+    text-align: justify;
+    color: blue;
+    background-color: aquamarine;
+}
+
+#p3 {
+    text-align: justify;
+    color: red;
+    background-color: aquamarine;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: purple;
+}
