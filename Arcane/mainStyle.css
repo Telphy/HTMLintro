@@ -1,13 +1,21 @@
 body{
-    background-color: wheat;
+    background-color: rgb(2, 2, 2);
 }
+
 #f1 {
     text-align: justify;
-    color: black;
+    color: rgb(255, 255, 255);
 
+}
+
+#centrar_texto {
+    color:white;
+    text-align: center;
+    font-weight: bold;
 }
 
 .centrar_texto {
+    color:white;
     text-align: center;
     font-weight: bold;
 }
@@ -17,9 +25,10 @@ body{
     margin-right: auto;
 }
 
+
 .nav{
     position: absolute  ;
-    background-color: cornflowerblue;
+    background-color: rgb(192, 36, 231);
     height: 70px;
     top:0px;
     left:0px;
