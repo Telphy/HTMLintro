@@ -1,38 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-PT">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
     <title>Teste Bootstrap</title>
 </head>
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-purple">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Jinx</a></li>
+              <li><a class="dropdown-item" href="#">Vi</a></li>
+              <li><a class="dropdown-item" href="#">Ekko</a></li>
+              <li><a class="dropdown-item" href="#">Vander</a></li>
+              <li><a class="dropdown-item" href="#">Silko</a></li>
+              <li><a class="dropdown-item" href="#">Jayce</a></li>
+              <li><a class="dropdown-item" href="#">Viktor</a></li>
+              <li><a class="dropdown-item" href="#">Singed</a></li>
+
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Other Characters</a></li>
+            </ul>
+          </li>
+          
+      </div>
+    </div>
+  </nav>
+     
     <div class="container-fluid p-5 my_bg bg-primary text-white text-center">
-        <h1>My First Bootstrap Page</h1>
-        <p>Resize this responsive page to see the effect!</p> 
+        <h1>UM LAR FRAGMENTADO</h1>
+        <p>Duas irmãs. Duas cidades. Uma descoberta que mudará o mundo para sempre.</p> 
       </div>
         
       <div class="container mt-5">
         <div class="row">
-          <div class="col-sm-4">
-            <h3>Column 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 3</h3>        
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+          <div class="col-sm-12">
+            <p>Nas cidades de Piltover e Zaun, a tensão aumenta à medida que inventores, arruaceiros, políticos e senhores do crime ficam cada vez mais fartos das restrições de uma sociedade devastada. Com a situação à beira do insustentável, duas irmãs roubam um artefato de imensurável poder. Descoberta e perigo colidem enquanto heróis nascem e laços são rompidos. Será que esse poder mudará o mundo? Ou será que o levará à ruína? Esse é o mundo de Arcane.</p>
+
           </div>
         </div>
       </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <h2 class="text-center">ACT 1</h2>
+          <div class="col-sm-12">
+            <h3>"Welcome to the Playground"</h3>
+            <p>A skirmish between the technologically advanced city of Piltover against its savage underbelly, Zaun, causes orphaned sisters Vi and Powder to be taken in by Vander, a bar-owner and leader of the undercity rebellion. Over the next few years, they learn to make a living by stealing scraps and parts of tech from the city above. However, a heist goes awry when some loot is revealed to be explosive crystals of arcane magic. While most of the haul is lost in a fight with other scavengers, Powder manages to keep hold of the explosive arcane crystals that were the root cause of the initial explosion. The already strenuous tension between the two cities intensifies, though unbeknownst to Vander and the sisters, a criminal mastermind named Silco seems to be pulling the strings toward inevitable revolution by tampering with the monsters hidden within all humans.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>"The Base Violence Necessary for Change"</h3>
+            <p>Silco and Vander once fought side by side for Zaun to be respected by Piltover. Their partnership ended in violence when Vander reached an agreement to end the battle with soldiers of the topside city, though Silco wanted to continue the fight. In present day, Vander decides to give himself up for peace to be maintained, but he is attacked and taken hostage by Silco and his newest henchman monstrosity. Vi and the rest of the salvaging crew, including lockpicker Mylo and heavylifter Claggor, go to rescue him, leaving Powder behind to stay safe. They reach him, but as they're about to escape, they're caught in an explosion due to Powder, who followed them, and her explosive device that utilized the hidden arcane crystals. Claggor and Mylo are killed, while Vander is forced to use Silco's monstrosity serum to escape with Vi, though he eventually dies from his injuries. Vi abandons Powder for causing the deaths of their loved ones, only for Powder to be taken in by Silco. Vi sees Silco approach Powder, but is captured by topside enforcers before she can get to her. Topside, Jayce and Viktor manage to perfect arcane technology, which they dub "Hextech", against the wishes of academy professor Heimerdinger, though the council is more optimistic.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>"Welcome to the Playground"</h3>
+            <p>A skirmish between the technologically advanced city of Piltover against its savage underbelly, Zaun, causes orphaned sisters Vi and Powder to be taken in by Vander, a bar-owner and leader of the undercity rebellion. Over the next few years, they learn to make a living by stealing scraps and parts of tech from the city above. However, a heist goes awry when some loot is revealed to be explosive crystals of arcane magic. While most of the haul is lost in a fight with other scavengers, Powder manages to keep hold of the explosive arcane crystals that were the root cause of the initial explosion. The already strenuous tension between the two cities intensifies, though unbeknownst to Vander and the sisters, a criminal mastermind named Silco seems to be pulling the strings toward inevitable revolution by tampering with the monsters hidden within all humans.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <h2 class="text-center">ACT 2</h2>
+          <div class="col-sm-12">
+            <h3>""Happy Progress Day!"</h3>
+            <p>With Piltover prospering from their tech, Jayce and Viktor weigh their next move. A familiar face re-emerges from Zaun to wreak havoc.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>"Everybody Wants to Be My Enemy"</h3>
+            <p>Rogue enforcer Caitlyn tours the undercity to track down Silco. Jayce puts a target on his back trying to root out Piltover corruption.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>"When These Walls Come Tumbling Down"</h3>
+            <p>An eager protégé undermines his mentor on the council as a magical tech rapidly evolves. With authorities in pursuit, Jinx must face her past.</p>
+          </div>
+        </div>
+      </div> -->
 </body>
 </html>
